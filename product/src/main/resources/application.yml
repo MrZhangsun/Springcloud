@@ -1,6 +1,11 @@
 spring:
   application:
     name: Product
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: mysql
+    url: jdbc:mysql://localhost:3306/springcloud
 eureka:
   client:
     service-url:

@@ -1,4 +1,4 @@
-package site.zhangsun.springcloud.registion;
+package site.zhangsun.springcloud.registration;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

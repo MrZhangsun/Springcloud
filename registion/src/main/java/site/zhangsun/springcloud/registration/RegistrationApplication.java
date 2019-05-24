@@ -1,15 +1,18 @@
-package site.zhangsun.springcloud.registion;
+package site.zhangsun.springcloud.registration;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
+/**
+ * @author Murphy Zhangsun
+ */
 @SpringBootApplication
 @EnableEurekaServer
-public class RegistionApplication {
+public class RegistrationApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(RegistionApplication.class, args);
+        SpringApplication.run(RegistrationApplication.class, args);
     }
 
 }
