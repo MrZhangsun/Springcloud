@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: configuration
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/MrZhangsun/configuration-center.git
+          username: mr_zhangsun@outlook.com
+          password: 1210020322jiankun
+          basedir: /Users/zhangsunjiankun/Documents/workspace/idea/configuration-center
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+management:
+  endpoints:
+    web:
+      expose: "*"
