@@ -30,3 +30,10 @@ mvnw
 ### VS Code ###
 .vscode/
 
+order/client/target/
+order/common/target/
+order/server/target/
+product/client/target/
+product/common/target/
+product/server/target/
+user/server/target/

@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.imooc</groupId>
+	<groupId>site.zhangsun.springcloud</groupId>
 	<artifactId>order</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
     <modules>
@@ -43,12 +43,12 @@
 				<scope>import</scope>
 			</dependency>
             <dependency>
-                <groupId>com.imooc</groupId>
+                <groupId>site.zhangsun.springcloud</groupId>
                 <artifactId>product-client</artifactId>
                 <version>${product-client.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.imooc</groupId>
+                <groupId>site.zhangsun.springcloud</groupId>
                 <artifactId>order-common</artifactId>
                 <version>${order-common.version}</version>
             </dependency>
